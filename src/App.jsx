@@ -208,6 +208,7 @@ const App = () => {
                       <MdCircle className="w-3 h-3 text-green-400" />
                       <span className="text-sm text-gray-600">Online</span>
                     </div>
+                    <button className="px-4 py-2 bg-amber-500 text-white font-medium rounded-lg cursor-pointer hover:bg-amber-600" onClick={() => setMessages([])}>Clear Messages</button>
                     <button className="px-4 py-2 bg-red-500 text-white font-medium rounded-lg cursor-pointer hover:bg-red-600" onClick={logout}>Logout</button>
                   </div>
                 </div>
